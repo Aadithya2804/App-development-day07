@@ -1,0 +1,22 @@
+.about-container
+{
+    background-image: url("https://wallpaperaccess.com/full/1858113.jpg");
+    height:100vh;
+    position: absolute;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#rotimg
+{
+    position: absolute;
+    height:500px;
+    width:500px;
+    margin-top:110px;
+    margin-left:380px;
+}
+#rotimg:hover{
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+}
